@@ -1,0 +1,177 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Responive Website</title>
+<link rel="stylesheet" href="navbar.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header class="header">
+<div class="container">
+<div class="logo">
+<p>Shopz</p>
+<img class="ham" onclick="showNav()" src="https://image.shutterstock.com/image-vector/hamburger-menu-icon-mobile-apps-600w-360130496.jpg">
+</div>
+<nav class="nav" id="nav">
+<ul class="nav-parent">
+<li class="nav-link">Home</li>
+<li class="nav-link">Products </li>
+<li class="nav-link">About</li>
+<li class="nav-link">Contact</li>
+</ul>
+</nav>
+</div>
+</header>
+<section class="banner">
+<div class="banner_detail">
+<div class="padd">
+<h1 class="banner_title">Shop With Us.</h1>
+<p class="banner_desc">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+</p>
+<button class="btn banner_btn">
+Shop Now
+</button>
+</div>
+</div>
+</section>
+<section class="products">
+<div class="container products_container">
+ <h1 class="section_title">Our Products</h1>
+<div class="product_parent">
+<div class="product">
+<div class="product_img">
+<img src="https://image.shutterstock.com/image-photo/handsome-african-man-600w-288032279.jpg"/>
+</div>
+<div class="product_detail">
+<div class="padd">
+<h2>Men's Shirt</h2>
+<h2>$100</h2>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+</p>
+<button class="btn product_btn" >Buy Now </button>
+</div>
+</div>
+</div>
+<div class="product">
+<div class="product_img">
+<img src="https://image.shutterstock.com/image-photo/portrait-woman-her-office-600w-479531530.jpg"/>
+</div>
+<div class="product_detail">
+<div class="padd">
+<h2>Women's Top</h2>
+<h2>$150</h2>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+</p>
+<button class="btn product_btn" >Buy Now </button>
+</div>
+</div>
+</div>
+<div class="product">
+<div class="product_img">
+<img src="https://image.shutterstock.com/image-photo/elegant-young-handsome-man-studio-600w-156222317.jpg"/>
+</div>
+<div class="product_detail">
+<div class="padd">
+<h2>Men's Coat</h2>
+<h2>$200</h2>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+</p>
+<button class="btn product_btn" >Buy Now </button>
+</div>
+</div>
+</div>
+<div class="product">
+<div class="product_img">
+<img src="https://image.shutterstock.com/image-photo/portrait-little-fashion-girl-picture-600w-248106811.jpg"/>
+</div>
+<div class="product_detail">
+<div class="padd">
+<h2>Girl's Shirt</h2>
+<h2>$50</h2>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+</p>
+<button class="btn product_btn" >Buy Now </button>
+</div>
+</div>
+</div>
+<div class="product">
+<div class="product_img">
+<img src="https://image.shutterstock.com/image-photo/cute-little-smiling-boy-tuxedo-600w-1700030878.jpg"/>
+</div>
+<div class="product_detail">
+<div class="padd">
+<h2>Boy's Shirt</h2>
+<h2>$100</h2>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+</p>
+<button class="btn product_btn" >Buy Now </button>
+</div>
+</div>
+</div>
+<div class="product">
+<div class="product_img">
+<img src="https://image.shutterstock.com/image-photo/cute-little-indian-girl-pink-600w-1827237734.jpg"/>
+</div>
+<div class="product_detail">
+<div class="padd">
+<h2>Girl's T- Shirt</h2>
+<h2>$100</h2>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+</p>
+<button class="btn product_btn" >Buy Now </button>
+</div>
+</div>
+</div>
+<div class="product">
+<div class="product_img">
+<img src="https://image.shutterstock.com/image-photo/portrait-beautiful-blond-woman-leather-600w-91343936.jpg"/>
+</div>
+<div class="product_detail">
+<div class="padd">
+<h2>Women's Jacket</h2>
+<h2>$100</h2>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+</p>
+<button class="btn product_btn" >Buy Now </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="about">
+<div class="container about_container">
+<h1 class="section_title about_title">About Us</h1>
+<div class="about_parent">
+<div class="about_image">
+<img src="https://image.shutterstock.com/image-illustration/about-us-letters-on-wooden-600w-258283535.jpg"/>
+</div>
+<div class="about_content">
+ <div class="padd">
+<span class="big">Lorem</span> ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</div>
+</div>
+</div>
+</div>
+</section>
+<footer class="footer">
+<p class="footer_content">Shopz © 2021</p>
+<p class="footer_content"><i class="fa fa-phone-square"></i> ++910010</p> 
+<p class="footer_content"><i class="fa fa-facebook"></i> <i class="fa fa-instagram"></i> <i class="fa fa-twitter"></i> <i class="fa fa-youtube-play"></i></p>
+</footer>
+<script>
+var isNavVisible= false;
+function showNav() {
+if(isNavVisible=== false) {
+document.getElementById("nav").style.height = "200px";
+isNavVisible=true;
+else{
+document.getElementById("nav").style.height = "0px";
+isNavVisible=false;
+}}
+</script>
+</body>
+</html>
+
+
